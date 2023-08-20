@@ -1,0 +1,40 @@
+body {
+    width: 18rem;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+table {
+    border: none;
+    text-align: center;
+}
+
+img {
+    height: 3rem;
+}
+
+svg {
+    width: 12px;
+}
+
+button {
+    padding: 6px 15px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(rgb(201, 226, 250), rgb(100, 172, 230));
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-image: linear-gradient(rgb(236, 244, 250), rgb(141, 188, 226));
+}
+
+button.btn-master {
+    margin:20px;
+    padding: 6px 30px;
+}
